@@ -1,0 +1,53 @@
+@media screen and (max-width: 782px) {
+    html #wpadminbar {
+        top: 0 !important;
+        position: fixed;
+    }
+}
+
+html {
+	
+    .site-component-container {
+
+        .site-component-row {
+            margin: auto;
+            justify-content: flex-start;
+            width: 100%;
+
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: inherit;
+                }
+            }
+        }
+
+        .site-component-row.wide {
+            max-width: 1700px;
+        }
+
+        .site-component-row.medium {
+            max-width: 1600px;
+        }
+
+
+        .site-component-row.narrow {
+            max-width: 1300px;
+        }
+
+    }
+
+    .read-more-button {
+        height: 15px;
+    }
+
+    .apply-button {
+        background-color: @brand-pink;
+        text-decoration: none;
+        color: @tinted-black-1;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+
+}

@@ -1,0 +1,54 @@
+.video-container {
+    position: relative;
+    
+    video {
+        width: 100%;
+        max-height: 100vh;
+        min-height: 300px;
+        object-fit: cover;
+        margin-bottom: -5px;
+    }
+
+    .video-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+        top: 0;
+        display: none;
+    }
+
+    .media-button {
+        position: absolute;
+        bottom: 115px;
+        left: 100px;
+        z-index: 2;
+
+        @media @medium-down {
+            bottom: 65px;
+            left: 15px;
+        }
+
+        img {
+            width: 35px;
+            filter: brightness(1) ;
+        }
+        
+        button {
+            background-color: transparent;
+            border: 0;
+            position: absolute;
+        }
+
+        .play-button {
+            display: none;
+
+            img {
+                stroke: white;
+                stroke-width: 2;
+            }
+
+        }
+    }
+}
