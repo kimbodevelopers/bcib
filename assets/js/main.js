@@ -29,24 +29,32 @@
                 $(".owl-carousel").owlCarousel({
                     loop:true,
                     center: true,
+                    dots: false,
+                    autoplay: true,
                     margin: 10,
-                    items: 1.5,
                     nav: true,
                     navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
                     responsive:{
-                        1200:{
-                            items: 1.5,
-                            slideBy: 1.5,
+                        0:{
+                            items:1
                         },
+
                         767:{
-                            items: 1
+                            items:1
                         },
+                    
+    
+                        1400:{
+                            items:1.5
+                        },
+                    
                     }
                 });
-        
+
             });
         }
-        
+
+       
         video();
         carouselSlides();
 

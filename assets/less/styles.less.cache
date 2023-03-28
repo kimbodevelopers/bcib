@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:15355:"header {
+a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:15836:"header {
   position: fixed;
   width: 100%;
   z-index: 50;
@@ -573,11 +573,29 @@ html .standard-button.tall {
 }
 .site-component-container.carousel-container .carousel-row {
   --bs-gutter-x: 0;
-  margin-left: 150px;
 }
 .site-component-container.carousel-container .carousel-row .owl-stage {
   display: flex;
-  margin-left: -255px;
+}
+.site-component-container.carousel-container .carousel-row .owl-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto;
+}
+.site-component-container.carousel-container .carousel-row .owl-item.active.center::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  width: 60%;
+  background-color: #B5BA23;
+}
+.site-component-container.carousel-container .carousel-row .owl-item.cloned:not(.active) .snippet-wrapper {
+  background-color: #B5BA23;
+  color: #B5BA23;
 }
 .site-component-container.carousel-container .carousel-row .item {
   display: flex;
@@ -669,4 +687,4 @@ html .standard-button.tall {
   transform: translateX(10px);
   transition: 0.5s ease-in-out transform;
 }
-";s:5:"files";a:13:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1679955767;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1679942297;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1679950645;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1679954588;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1679959129;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1679959615;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:99:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\small-title-text-only.less";i:1679955726;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1679950870;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1679959617;}
+";s:5:"files";a:13:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1679955767;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1679942297;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1679950645;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1679954588;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1679959129;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1679959615;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:99:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\small-title-text-only.less";i:1679955726;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1680023918;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1680023920;}

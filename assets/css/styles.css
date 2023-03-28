@@ -573,11 +573,29 @@ html .standard-button.tall {
 }
 .site-component-container.carousel-container .carousel-row {
   --bs-gutter-x: 0;
-  margin-left: 150px;
 }
 .site-component-container.carousel-container .carousel-row .owl-stage {
   display: flex;
-  margin-left: -255px;
+}
+.site-component-container.carousel-container .carousel-row .owl-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  margin: auto;
+}
+.site-component-container.carousel-container .carousel-row .owl-item.active.center::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  width: 60%;
+  background-color: #B5BA23;
+}
+.site-component-container.carousel-container .carousel-row .owl-item.cloned:not(.active) .snippet-wrapper {
+  background-color: #B5BA23;
+  color: #B5BA23;
 }
 .site-component-container.carousel-container .carousel-row .item {
   display: flex;
