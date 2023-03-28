@@ -1,0 +1,44 @@
+.site-component-container.background-cta-container {
+
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 0;
+    display: flex;
+    padding: 0 0 60px 0;
+
+    .background-cta-row {
+        margin: auto auto 0 auto;
+
+
+        .cta-column {
+            background-color: rgba(0, 0, 0, 0.6);
+
+            .cta-wrapper {
+                max-width: 630px;
+                margin-left: auto;
+                padding: 50px 0 50px 0px;
+
+                @media @large-down {
+                    padding: 30px 0 50px 50px;
+                    margin-left: 0;
+                    max-width: unset;
+                }
+
+                @media @medium-down {
+                    padding: 30px 0 30px;
+
+                }
+
+                .snippet {
+                    padding: 10px 0 40px;
+
+                    @media @large-down {
+                        padding: 10px 0 20px;
+                    }
+                }
+            }
+        }
+
+    }
+}

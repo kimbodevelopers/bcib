@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:9876:"header {
+a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:15355:"header {
   position: fixed;
   width: 100%;
   z-index: 50;
@@ -176,7 +176,7 @@ header .navbar .navbar-collapse .menu-item a {
   font-weight: 600;
   color: white;
   position: relative;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -221,7 +221,7 @@ header .navbar .navbar-collapse .menu-item .sub-menu {
     height: 75px;
     transition: 0.35s;
     box-shadow: 0px 15px 10px -15px #34404C;
-    background-color: ;
+    background-color: #59595B;
     padding-top: 15px;
   }
   .scroll-down .nav-logo-desktop {
@@ -256,18 +256,24 @@ html .site-component-container .site-component-row.wide {
 html .site-component-container .site-component-row.medium {
   max-width: 1600px;
 }
-html .site-component-container .site-component-row.narrow {
+html .site-component-container .site-component-row.small {
   max-width: 1300px;
 }
 html .read-more-button {
   height: 15px;
 }
-html .apply-button {
+html .standard-button {
   background-color: #D383F1;
   text-decoration: none;
   color: #100903;
   border-radius: 5px;
   text-transform: uppercase;
+}
+html .standard-button.short {
+  padding: 5px 20px;
+}
+html .standard-button.tall {
+  padding: 17px 20px;
 }
 .title-text,
 .body-text {
@@ -277,14 +283,38 @@ html .apply-button {
 ._dark-grey {
   color: #707070;
 }
+._dark-grey-2 {
+  color: #59595B;
+}
 ._blue-black-tint-2 {
   color: #2E3844;
+}
+._brand-yellow {
+  color: #D7DE27;
+}
+._white {
+  color: white;
+}
+._uppercase {
+  text-transform: uppercase;
+}
+.regular {
+  font-weight: 400;
 }
 ._medium {
   font-weight: 600;
 }
 ._bold {
   font-weight: bold;
+}
+._line-height-1 {
+  line-height: 1;
+}
+._line-height-1-1 {
+  line-height: 1.1;
+}
+._line-height-1-2 {
+  line-height: 1.2;
 }
 ._13 {
   font-size: 13px;
@@ -300,6 +330,19 @@ html .apply-button {
     font-size: 18px;
   }
 }
+._24 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 1199px) {
+  ._24 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  ._24 {
+    font-size: 20px;
+  }
+}
 ._32 {
   font-size: 32px;
 }
@@ -313,6 +356,19 @@ html .apply-button {
     font-size: 26px;
   }
 }
+._48 {
+  font-size: 48px;
+}
+@media only screen and (max-width: 1199px) {
+  ._48 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  ._48 {
+    font-size: 38px;
+  }
+}
 ._60 {
   font-size: 60px;
 }
@@ -324,6 +380,57 @@ html .apply-button {
 @media only screen and (max-width: 991px) {
   ._60 {
     font-size: 45px;
+  }
+}
+.footer-container {
+  background-color: #2E3844;
+  position: relative;
+}
+.footer-container .acknowledgement-row {
+  padding: 75px 0;
+  border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 1199px) {
+  .footer-container .acknowledgement-row {
+    padding: 50px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footer-container .acknowledgement-row {
+    padding: 30px 0;
+  }
+}
+.footer-container .menus-row {
+  padding: 60px 0 50px;
+}
+@media only screen and (max-width: 991px) {
+  .footer-container .menus-row {
+    padding: 30px 0 25px;
+  }
+}
+.footer-container .menus-row h3 {
+  padding-bottom: 10px;
+}
+.footer-container .menus-row .footer-menu {
+  padding: 0;
+  list-style: none;
+}
+.footer-container .menus-row .footer-menu .menu-item {
+  padding-bottom: 15px;
+}
+.footer-container .menus-row .footer-menu .menu-item a {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1199px) {
+  .footer-container .menus-row .footer-menu .menu-item a {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .footer-container .menus-row .footer-menu .menu-item a {
+    font-size: 20px;
   }
 }
 .video-container {
@@ -375,9 +482,31 @@ html .apply-button {
 }
 .feature-cards-container {
   background-color: #EDF0F4;
+  padding: 100px 0 50px;
+}
+@media only screen and (max-width: 1199px) {
+  .feature-cards-container {
+    padding: 70px 0 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .feature-cards-container {
+    padding: 50px 0;
+  }
 }
 .feature-cards-container .featured-cards-title-wrapper {
   text-align: center;
+  padding-bottom: 40px;
+}
+@media only screen and (max-width: 1199px) {
+  .feature-cards-container .featured-cards-title-wrapper {
+    padding-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .feature-cards-container .featured-cards-title-wrapper {
+    padding-bottom: 15px;
+  }
 }
 .feature-cards-container .feature-cards-row {
   padding: 80px 0;
@@ -389,7 +518,7 @@ html .apply-button {
 }
 @media only screen and (max-width: 991px) {
   .feature-cards-container .feature-cards-row {
-    padding: 40px 0;
+    padding: 15px 0;
   }
 }
 .feature-cards-container .feature-cards-row .feature-cards-column {
@@ -423,13 +552,121 @@ html .apply-button {
   height: 40px;
   width: auto;
 }
-.feature-cards-container .feature-cards-row .feature-cards-column .read-more-link .read-more-button {
+.title-text-container {
+  padding: 100px 0;
+}
+@media only screen and (max-width: 1199px) {
+  .title-text-container {
+    padding: 70px 0;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .title-text-container {
+    padding: 50px 0;
+  }
+}
+.site-component-container.carousel-container {
+  background-color: #B5BA23;
+  padding: 130px 0;
+  overflow: hidden;
+  --bs-gutter-x: 0;
+}
+.site-component-container.carousel-container .carousel-row {
+  --bs-gutter-x: 0;
+  margin-left: 150px;
+}
+.site-component-container.carousel-container .carousel-row .owl-stage {
+  display: flex;
+  margin-left: -255px;
+}
+.site-component-container.carousel-container .carousel-row .item {
+  display: flex;
+  height: 100%;
+}
+.site-component-container.carousel-container .carousel-row .item .carousel-image-wrapper {
+  width: 50%;
+}
+.site-component-container.carousel-container .carousel-row .item .carousel-image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.site-component-container.carousel-container .carousel-row .item .snippet-wrapper {
+  width: 50%;
+  background-color: white;
+  padding: 70px;
+}
+.site-component-container.background-cta-container {
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+  padding-left: 0;
+  display: flex;
+  padding: 0 0 60px 0;
+}
+.site-component-container.background-cta-container .background-cta-row {
+  margin: auto auto 0 auto;
+}
+.site-component-container.background-cta-container .background-cta-row .cta-column {
+  background-color: rgba(0,0,0,0.6);
+}
+.site-component-container.background-cta-container .background-cta-row .cta-column .cta-wrapper {
+  max-width: 630px;
+  margin-left: auto;
+  padding: 50px 0 50px 0px;
+}
+@media only screen and (max-width: 1199px) {
+  .site-component-container.background-cta-container .background-cta-row .cta-column .cta-wrapper {
+    padding: 30px 0 50px 50px;
+    margin-left: 0;
+    max-width: unset;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .site-component-container.background-cta-container .background-cta-row .cta-column .cta-wrapper {
+    padding: 30px 0 30px;
+  }
+}
+.site-component-container.background-cta-container .background-cta-row .cta-column .cta-wrapper .snippet {
+  padding: 10px 0 40px;
+}
+@media only screen and (max-width: 1199px) {
+  .site-component-container.background-cta-container .background-cta-row .cta-column .cta-wrapper .snippet {
+    padding: 10px 0 20px;
+  }
+}
+.text-content-media-container {
+  padding: 80px 0;
+}
+.text-content-media-container .text-content-media-row .content-column {
+  display: flex;
+}
+.text-content-media-container .text-content-media-row .content-wrapper {
+  max-width: 650px;
+  margin: auto;
+}
+.text-content-media-container .text-content-media-row .content-wrapper .logo {
+  max-width: 130px;
+  margin: 0 0 45px;
+}
+.text-content-media-container .text-content-media-row .content-wrapper h3 {
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 991px) {
+  .text-content-media-container .text-content-media-row .content-wrapper h3 {
+    margin-bottom: 15px;
+  }
+}
+.text-content-media-container .text-content-media-row .video-column video {
+  width: 100%;
+}
+.read-more-link .read-more-button {
   margin-left: 15px;
   transform: translateX(0px);
   transition: 0.5s ease-in-out transform;
 }
-.feature-cards-container .feature-cards-row .feature-cards-column .read-more-link:hover .read-more-button {
+.read-more-link:hover .read-more-button {
   transform: translateX(10px);
   transition: 0.5s ease-in-out transform;
 }
-";s:5:"files";a:7:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1678316134;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1678319445;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1678298736;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1678320487;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1678319478;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1678324362;}s:7:"updated";i:1678324364;}
+";s:5:"files";a:13:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1679955767;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1679942297;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1679950645;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1679954588;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1679959129;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1679959615;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:99:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\small-title-text-only.less";i:1679955726;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1679950870;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1679959617;}

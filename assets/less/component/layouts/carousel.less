@@ -1,0 +1,47 @@
+.site-component-container.carousel-container {
+
+    background-color: @greenish-yellow;
+    padding: 130px 0;
+    overflow: hidden;
+    --bs-gutter-x: 0;
+
+    
+    .carousel-row {
+        --bs-gutter-x: 0;
+        margin-left: 150px;
+
+        .owl-stage-outer {
+
+        }
+        
+        .owl-stage {
+            display: flex;
+            margin-left: -255px;
+        }
+
+        .owl-item.active {
+                
+        }
+
+        .item {
+            display: flex;
+            height: 100%;
+
+            .carousel-image-wrapper {
+                width: 50%;
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                    height: 100%;
+                }
+            }
+
+            .snippet-wrapper {
+                width: 50%;
+                background-color: white;
+                padding: 70px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,57 @@
+.footer-container {
+    background-color: @black-blue-tint-2;
+    position: relative;
+
+    .acknowledgement-row {
+        padding: 75px 0;
+        border-bottom: 1px solid white;
+        
+        @media @large-down {
+            padding: 50px 0;
+        }
+
+        @media @medium-down {
+            padding: 30px 0;
+        }
+    }
+
+    .menus-row {
+
+        padding: 60px 0 50px;
+
+        @media @medium-down {
+            padding: 30px 0 25px;
+        }
+
+        h3 {
+            padding-bottom: 10px;
+        }
+
+        .footer-menu {
+            padding: 0;
+            list-style: none;
+
+
+
+            .menu-item {
+                padding-bottom: 15px;
+
+
+                a {
+                    color: white;
+                    font-size: 24px;
+                    font-weight: 600;
+
+                    @media @large-down {
+                        font-size: 22px;
+                    }
+                    
+                    @media @medium-down {
+                        font-size: 20px;
+                    }
+                }
+
+            }
+        }
+    }
+}

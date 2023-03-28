@@ -1,9 +1,27 @@
 .feature-cards-container {
 
     background-color: @light-blue;
+    padding: 100px 0 50px;
+
+    @media @large-down {
+        padding: 70px 0 30px;
+    }
+
+    @media @medium-down {
+        padding: 50px 0;
+    }
 
     .featured-cards-title-wrapper {
         text-align: center;
+        padding-bottom: 40px;
+
+        @media @large-down {
+            padding-bottom: 30px
+        }
+
+        @media @medium-down {
+            padding-bottom: 15px;
+        }
     }
 
     .feature-cards-row {
@@ -14,7 +32,7 @@
         }
 
         @media @medium-down {
-            padding: 40px 0;
+            padding: 15px 0;
         }
 
         .feature-cards-column {
@@ -50,25 +68,6 @@
                     width: auto;
                 }
             }
-
-            .read-more-link {
-
-                .read-more-button {
-                    margin-left: 15px;
-                    transform: translateX(0px);
-                    transition: 0.5s ease-in-out transform;
-                }
-
-                &:hover {
-                    .read-more-button {
-                        transform: translateX(10px);
-                        transition: 0.5s ease-in-out transform;
-                    }
-                }
-
-
-            }
-
 
         }
     }

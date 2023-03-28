@@ -8,8 +8,28 @@
     color: @dark-grey;
 }
 
+._dark-grey-2 {
+    color: @dark-grey-2;
+}
+
 ._blue-black-tint-2 {
     color: @black-blue-tint-2;
+}
+
+._brand-yellow {
+    color: @brand-yellow;
+}
+
+._white {
+    color: white;
+}
+
+._uppercase {
+    text-transform: uppercase;
+}
+
+.regular {
+    font-weight: 400;
 }
 
 ._medium {
@@ -18,6 +38,18 @@
 
 ._bold {
     font-weight: bold;
+}
+
+._line-height-1 {
+    line-height: 1;
+}
+
+._line-height-1-1 {
+    line-height: 1.1;
+}
+
+._line-height-1-2 {
+    line-height: 1.2;
 }
 
 
@@ -37,6 +69,18 @@
     }
 }
 
+._24 {
+    font-size: 24px;
+
+    @media @large-down {
+        font-size: 22px;
+    }
+    
+    @media @medium-down {
+        font-size: 20px;
+    }
+}
+
 ._32 {
     font-size: 32px;
 
@@ -46,6 +90,19 @@
 
     @media @medium-down {
         font-size: 26px;
+    }
+}
+
+._48 {
+
+    font-size: 48px;
+
+    @media @large-down {
+        font-size: 42px;
+    }
+
+    @media @medium-down {
+        font-size: 38px;
     }
 }
 

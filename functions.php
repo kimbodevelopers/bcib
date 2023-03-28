@@ -42,7 +42,9 @@ if ( function_exists( 'register_nav_menus' ) ) {
 		array(
 			'nav-main-menu'   => 'Main Navigation Menu',
 			'nav-sub-menu'   => 'Navigation Sub Menu',
-			'footer-main-menu' => 'Main Footer Menu',
+			'footer-personnel-menu' => 'Footer - Personnel Menu',
+			'footer-how-menu' => 'Footer - How Menu',
+			'footer-more-menu' => 'Footer - More Menu',
 			)
 	);
 }

@@ -32,7 +32,7 @@ html {
         }
 
 
-        .site-component-row.narrow {
+        .site-component-row.small {
             max-width: 1300px;
         }
 
@@ -42,12 +42,26 @@ html {
         height: 15px;
     }
 
-    .apply-button {
+    .standard-button {
         background-color: @brand-pink;
         text-decoration: none;
         color: @tinted-black-1;
         border-radius: 5px;
         text-transform: uppercase;
+
+        &.short {
+            padding: 5px 20px;
+        }
+
+        &.tall {
+            padding: 17px 20px
+        }
+    }
+
+    .link-button {
+        &:after {
+            
+        }
     }
 
 }
