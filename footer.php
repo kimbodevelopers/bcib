@@ -62,15 +62,33 @@
 						wp_nav_menu($footer_more_menu_param);
 
 					?>
+					<div class="icon-row">
+						<a href="#" class="icon-wrapper">
+							<i class="fa-brands fa-twitter"></i>
+						</a>
+
+						<a href="#" class="icon-wrapper">
+							<i class="fa-brands fa-linkedin-in"></i>
+						</a>
+
+						<a href="#" class="icon-wrapper">
+							<i class="fa-brands fa-instagram"></i>
+						</a>
+
+						<a href="#" class="icon-wrapper">
+							<i class="fa-brands fa-facebook-f"></i>
+						</a>
+					</div>
+
 				</div>
 			</div>
 
-			<div class="site-component-row small row ">
+			<div class="site-component-row small row privacy-row">
 				<div class="col-md-8">
 					<p class="body-text _20 _white "><?php the_field('copyright', 'options') ?></p>
-					<p >
-						<a class="body-text _20 _white ">BCIB Privacy Statement</a>&nbsp;|&nbsp;
-						<a class="body-text _20 _white ">Disclaimer</a>
+					<p class="body-text _20 _white ">
+						<a class="_white" href="<?php the_field('privacy_statement', 'options') ?>">BCIB Privacy Statement</a>&nbsp;|&nbsp;
+						<a class="_white" href="<?php the_field('disclaimer', 'options') ?>">Disclaimer</a>
 					</p>
 				</div>
 				<div class="col-md-4">

@@ -5,16 +5,15 @@
     overflow: hidden;
     --bs-gutter-x: 0;
 
-    
+    @media @medium {
+        padding: 50px 0;
+    }
+
     .carousel-row {
         --bs-gutter-x: 0;
-        // margin-left: ~'calc((80vw / 1) - 1000px)';
 
-
-        
         .owl-stage {
             display: flex;
-            // margin-left: ~'calc((-20vw / 6) - 250px)';
         }
 
         .owl-nav {
@@ -23,6 +22,35 @@
             bottom: 0;
             height: fit-content;
             margin: auto;
+
+            button {
+                height: 30px;
+                width: 30px;
+                border-radius: 100%;
+                background-color: white;
+                position: absolute;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+                svg {
+                    color: @greenish-yellow;
+                }
+            }
+
+            .owl-prev {
+                left: 30px;
+
+                @media @medium {
+                    left: 15px;
+                }
+            }
+
+            .owl-next {
+                right: 30px;
+
+                @media @medium {
+                    right: 15px;
+                }
+            }
         }
 
         .owl-item.active.center::before {
@@ -47,8 +75,17 @@
             display: flex;
             height: 100%;
 
+            @media @medium-down {
+                flex-direction: column;
+            }
+
             .carousel-image-wrapper {
                 width: 50%;
+
+                @media @medium-down {
+                    width: 100%;
+                }
+
                 img {
                     width: 100%;
                     object-fit: cover;
@@ -60,8 +97,58 @@
                 width: 50%;
                 background-color: white;
                 padding: 70px;
+                height: 100%;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+
+
+                @media @medium-down {
+                    width: 100%;
+                    padding: 15px;
+                    
+
+                }
             }
         }
     }
 
+}
+
+.carousel {
+	
+	margin-bottom: 30px;
+	
+	@media @margin-down {
+		margin-bottom: 15px;
+	}
+
+    .active.carousel-item-right, .carousel-item-next,
+    .active.carousel-item-left, .carousel-item-prev
+    {
+        -webkit-transform: unset;
+        transform: unset;
+    }
+
+    .carousel-item {
+        height: 100%;
+
+        img {
+            object-fit: cover;
+            height: 50vw;
+            max-height: 60vh;
+            min-height: 550px;
+            width: auto;
+
+            @media @small-down {
+                height: 450px;
+				min-height: 450px;
+            }
+
+            @media @x-small-down {
+                height: 350px;
+				min-height: 350px;
+            }
+        }
+    }
 }

@@ -1,0 +1,156 @@
+.site-component-container.t1-container, .site-component-container.f1-form-container {
+    .t1-row, .f1-form-row {
+
+        .t1-column {
+            max-width: 900px;
+			
+			p {
+				font-size: 20px;
+			}
+
+            .t1-content {
+                margin-right: 30px;
+            }
+        }
+
+        h1, h2, h3 {
+            color: @black-blue-tint-2;
+            margin: 30px 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 0;
+            font-family: 'Poppins', sans-serif;
+    
+            @media @medium-down {
+                font-size: 42px;
+            }
+    
+            @media @x-small-down {
+                font-size: 36px;
+            }
+        }
+
+        h2 {
+            font-size: 33px;
+            font-weight: 600;
+    
+            @media @medium-down {
+                font-size: 28px;
+            }
+    
+            @media @x-small-down {
+                font-size: 25px;
+            }
+        }
+
+        h3 {
+            font-size: 25px;
+            font-weight: 600;
+    
+            @media @medium-down {
+                font-size: 22px;
+            }
+    
+            @media @x-small-down {
+                font-size: 18px;
+            }
+        }
+
+
+        h1, h2, h3, h4 {
+            margin-bottom: 30px;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin: 25px 0;
+
+            li {
+                font-size: 20px;
+            }
+        }
+
+        #rCw {
+
+            @media @x-large-down {
+                width: 85vw;
+                max-width: 1160px;
+            }
+
+            @media @x-large-up {
+                width: 1160px;
+            }
+
+            @media @medium-down {
+                min-width: 100%;
+
+                .page-section {
+                    .page-row {
+                        .page-row-content[data-type="search"] input[type=search]{
+                            width: 100%;
+                        }
+
+                        .page-row-content {
+                            padding: 15px;
+                        }
+                    }
+                }
+
+                ul {
+
+                    height: unset;
+
+                    &.nav-pills {
+                        li {
+                            width: calc(100% / 3);
+                            min-width: unset;
+    
+                            a {
+                                padding: 10px 0;
+                                margin: 0;
+                                height: unset;
+                            }
+                        }
+                    }
+
+                }
+
+                .page-section {
+                    margin: 0;
+                    padding: 0;
+                }
+
+            }
+        }
+    }
+    .carousel {
+        height: min-content;
+
+        .carousel-inner {
+            .carousel-item {
+                max-height: 400px;
+                height: 100%;
+                transition: 0.3s ease-in-out all;
+    
+                @media @medium-down {
+                    max-height: 300px;
+                }
+            }
+            
+        }
+    
+        .carousel-indicators {
+            button {
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+

@@ -18,11 +18,11 @@
                         <div class="snippet-wrapper">
 
                             <?php if($title) : ?>
-                                <h3><?php echo $title ?></h3>
+                                <h3 class="title-text _48"><?php echo $title ?></h3>
                             <?php endif; ?>
                                 
                             <?php if($snippet) : ?>
-                                <div class="">
+                                <div class="body-text _20">
                                     <?php echo $snippet ?>
                                 </div>
                             <?php endif; ?>

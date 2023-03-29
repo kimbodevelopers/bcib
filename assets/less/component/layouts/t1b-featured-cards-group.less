@@ -1,0 +1,74 @@
+.feature-cards-container {
+
+    background-color: @light-blue;
+    padding: 100px 0 50px;
+
+    @media @large-down {
+        padding: 70px 0 30px;
+    }
+
+    @media @medium-down {
+        padding: 50px 0;
+    }
+
+    .featured-cards-title-wrapper {
+        text-align: center;
+        padding-bottom: 40px;
+
+        @media @large-down {
+            padding-bottom: 30px
+        }
+
+        @media @medium-down {
+            padding-bottom: 15px;
+        }
+    }
+
+    .feature-cards-row {
+        padding: 80px 0;
+
+        @media @large-down {
+            padding: 60px 0;
+        }
+
+        @media @medium-down {
+            padding: 15px 0;
+        }
+
+        .feature-cards-column {
+            padding: 0 30px;
+
+            @media @medium-down {
+                padding: 30px 15px;
+            }
+
+            &.card-border {
+                @media @medium-up {
+                    border-left: 2px solid white;
+                }
+            }
+
+            &:not(:last-child) {
+                @media @small-down {
+                    border-bottom: 2px solid white;
+                }
+            }
+
+            .icon-wrapper {
+
+                min-height: 40px;
+                margin-bottom: 30px;
+
+                @media @medium-down {
+                    margin-bottom: 15px;
+                }
+
+                img {
+                    height: 40px;
+                    width: auto;
+                }
+            }
+
+        }
+    }
+}
