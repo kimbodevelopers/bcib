@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-md-6 video-column">
-                <video muted loop control>
+                <video muted loop controls>
                     <source src="<?php echo $video['url'] ?>" type="video/mp4" />
                 </video>
             </div>

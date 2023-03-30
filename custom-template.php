@@ -17,6 +17,11 @@
 
         <?php get_template_part('inc/components/layouts/t3-tabs-group', null, array('layout_counter' => $layout_counter)) ?>
 
+        <?php get_template_part('inc/components/layouts/p1-picture') ?>
+
+        <?php get_template_part('inc/components/layouts/p2a-picture-text') ?>
+
+        <?php get_template_part('inc/components/layouts/p2b-text-picture') ?>
     <?php endwhile; ?>
 
 <?php endif; ?>
