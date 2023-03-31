@@ -1,0 +1,65 @@
+.site-component-container.f1-form-container {
+    .site-component-row.f1-form-row {
+
+        .description-column {
+            padding-right: ~'calc((1300px / 12))';
+
+            @media @x-large-down {
+                padding-right: 50px;
+            }
+
+            @media @medium-down {
+                padding-right: 30px;
+            }
+
+            @media @small-down {
+                padding-right: 0;
+            }
+
+            h3 {
+                margin-bottom: 35px;
+
+                @media @medium-down {
+                    margin-bottom: 25px
+                }
+            }
+        }
+
+        .form-column {
+
+            label, .wpcf7-form-control-wrap, 
+            input:not(.wpcf7-submit), optgroup, select, textarea {
+                width: 100%;
+                min-height: 55px;
+                font-size: 21px;
+                font-weight: 500;
+                font-family: 'Poppins';
+
+                @media @medium-down {
+                    font-size: 18px;
+                }
+
+                @media @medium-down {
+                    min-height: 40px;
+                }
+            }
+
+
+
+            input:not(.wpcf7-submit), optgroup, select, textarea {
+                padding-left: 10px;
+                border: 0;
+                background-color: @light-grey-2;
+                margin-top: 10px;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+
+            [data-lastpass-icon-root="true"] {
+                display: none;
+            }
+        }
+    }
+}

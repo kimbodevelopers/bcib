@@ -47,6 +47,7 @@ html .site-component-container.a1-accordion-container {
             .accordion-button {
 
                 padding: 30px 0;
+                position: relative;
 
                 @media @medium-down {
                     padding: 15px 0;
@@ -59,6 +60,45 @@ html .site-component-container.a1-accordion-container {
                 &:not(.collapsed) {
                     background-color: unset;
                 }
+
+                &::after {
+                    background-image: unset;
+                    display: flex;
+                    content: '\2b';
+                    align-items: center;
+                    margin-top: 1px;
+                    font-family: "FontAwesome";
+                    justify-content: center;
+                    margin-left: 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: @greenish-yellow;
+                    will-change: transform;
+                    transform: rotate(-90deg);
+                    -webkit-transform: rotate(-90deg);
+                    transition: 0.35s transform;
+                    -webkit-transition: 0.35s transform;
+                    right: 0;
+                    position: absolute;
+                }
+
+                &:not(.collapsed)::after {
+                    background-image: unset;
+                    display: flex;
+                    content: '\f068';
+                    font-family: "FontAwesome";
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 0;
+                    font-size: 20px;
+                    box-shadow: none;
+                    will-change: transform;
+                    transform: rotate(0deg);
+                    -webkit-transform: rotate(0deg);
+                    transition: 0.35s transform;
+                    -webkit-transition: 0.35s transform;
+                }
+
             }
 
             .accordion-body {

@@ -30,7 +30,9 @@
         <?php get_template_part('inc/components/layouts/b1-table') ?>
 
         <?php get_template_part('inc/components/layouts/a1-accordion', null, array('layout_counter' => $layout_counter)) ?>
-    <?php endwhile; ?>
+    
+        <?php get_template_part('inc/components/layouts/f1-form') ?>
+        <?php endwhile; ?>
 
 <?php endif; ?>
 
