@@ -50,7 +50,8 @@
                     center: true,
                     dots: false,
                     // autoplay: true,
-                    margin: 10,
+                    margin: 25,
+                    stagePadding: 50,
                     nav: true,
                     navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
                     responsive:{

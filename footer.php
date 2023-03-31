@@ -92,7 +92,7 @@
 					</p>
 				</div>
 				<div class="col-md-4">
-					(link to social policy)
+					<p class="body-text _20 _white">(link to social policy)</p>
 				</div>
 			</div>
 

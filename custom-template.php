@@ -22,6 +22,11 @@
         <?php get_template_part('inc/components/layouts/p2a-picture-text') ?>
 
         <?php get_template_part('inc/components/layouts/p2b-text-picture') ?>
+
+        <?php get_template_part('inc/components/layouts/p3-carousel-group') ?>
+
+        <?php get_template_part('inc/components/layouts/p4-video') ?>
+
     <?php endwhile; ?>
 
 <?php endif; ?>

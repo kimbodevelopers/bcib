@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:38854:"header {
+a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:39637:"header {
   position: fixed;
   width: 100%;
   z-index: 50;
@@ -403,61 +403,62 @@ html .standard-button.tall {
     font-size: 45px;
   }
 }
-.footer-container {
+.site-component-container.footer-container {
   background-color: #2E3844;
   position: relative;
+  margin: 0;
 }
-.footer-container .acknowledgement-row {
+.site-component-container.footer-container .acknowledgement-row {
   padding: 75px 0;
   border-bottom: 1px solid white;
 }
 @media only screen and (max-width: 1199px) {
-  .footer-container .acknowledgement-row {
+  .site-component-container.footer-container .acknowledgement-row {
     padding: 50px 0;
   }
 }
 @media only screen and (max-width: 991px) {
-  .footer-container .acknowledgement-row {
+  .site-component-container.footer-container .acknowledgement-row {
     padding: 30px 0;
   }
 }
-.footer-container .menus-row {
+.site-component-container.footer-container .menus-row {
   padding: 60px 0 50px;
 }
 @media only screen and (max-width: 991px) {
-  .footer-container .menus-row {
+  .site-component-container.footer-container .menus-row {
     padding: 30px 0 25px;
   }
 }
-.footer-container .menus-row h3 {
+.site-component-container.footer-container .menus-row h3 {
   padding-bottom: 10px;
 }
-.footer-container .menus-row .footer-menu {
+.site-component-container.footer-container .menus-row .footer-menu {
   padding: 0;
   list-style: none;
 }
-.footer-container .menus-row .footer-menu .menu-item {
+.site-component-container.footer-container .menus-row .footer-menu .menu-item {
   padding-bottom: 15px;
 }
-.footer-container .menus-row .footer-menu .menu-item a {
+.site-component-container.footer-container .menus-row .footer-menu .menu-item a {
   color: white;
   font-size: 24px;
   font-weight: 600;
 }
 @media only screen and (max-width: 1199px) {
-  .footer-container .menus-row .footer-menu .menu-item a {
+  .site-component-container.footer-container .menus-row .footer-menu .menu-item a {
     font-size: 22px;
   }
 }
 @media only screen and (max-width: 991px) {
-  .footer-container .menus-row .footer-menu .menu-item a {
+  .site-component-container.footer-container .menus-row .footer-menu .menu-item a {
     font-size: 20px;
   }
 }
-.footer-container .icon-row {
+.site-component-container.footer-container .icon-row {
   display: flex;
 }
-.footer-container .icon-row .icon-wrapper {
+.site-component-container.footer-container .icon-row .icon-wrapper {
   width: 40px;
   height: 40px;
   border-radius: 100%;
@@ -1384,6 +1385,23 @@ html .standard-button.tall {
   padding: 30px 30px 30px 0;
   margin-right: auto;
 }
+.p4-container .p4-row .p4-column.youtube-link {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  height: auto;
+  max-width: calc(100% - 30px);
+  margin: auto;
+}
+.p4-container .p4-row .p4-column.youtube-link iframe,
+.p4-container .p4-row .p4-column.youtube-link embed,
+.p4-container .p4-row .p4-column.youtube-link object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .read-more-link .read-more-button {
   margin-left: 15px;
   transform: translateX(0px);
@@ -1393,4 +1411,4 @@ html .standard-button.tall {
   transform: translateX(10px);
   transition: 0.5s ease-in-out transform;
 }
-";s:5:"files";a:18:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1680200746;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1679942297;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1680034132;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1680133278;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1680210350;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1680029512;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1680044983;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1-text-group.less";i:1680038045;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1b-featured-cards-group.less";i:1680038765;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t2-small-title-text-only.less";i:1679955726;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t3-tabs-group.less";i:1680199762;s:88:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p1-picture.less";i:1680132953;s:93:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p2-picture-text.less";i:1680216783;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1680216787;}
+";s:5:"files";a:19:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1680219761;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1679942297;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1680034132;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1680133278;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1680210350;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1680218002;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1680044983;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1-text-group.less";i:1680038045;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1b-featured-cards-group.less";i:1680038765;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t2-small-title-text-only.less";i:1679955726;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t3-tabs-group.less";i:1680199762;s:88:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p1-picture.less";i:1680132953;s:93:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p2-picture-text.less";i:1680216783;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p4-video.less";i:1680220610;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1680220648;}
