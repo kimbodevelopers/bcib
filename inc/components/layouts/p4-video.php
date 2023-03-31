@@ -14,7 +14,7 @@
             <?php endif; ?>
 
             <?php if($video_type === 'video_file') : ?>
-                <div class="col-12 p4-column">
+                <div class="col-12 p4-column video-file">
 
                     <?php if(get_sub_field('video_file')) : ?>
                         <video controls src="<?php echo get_sub_field('video_file') ?>"></video>
