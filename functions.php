@@ -83,3 +83,8 @@ if(function_exists('acf_add_options_page')) {
 		'icon_urol' => 'false',
 	));
 }
+
+add_filter( 'use_block_editor_for_post', '__return_false' ); 
+add_theme_support('post-thumbnails');
+add_post_type_support( 'parks-and-recreation', 'thumbnail' );
+
