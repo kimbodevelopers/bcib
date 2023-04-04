@@ -6,7 +6,7 @@
 <?php if( have_rows('home_content') ): ?>
     <?php while( have_rows('home_content') ): the_row(); ?>
         
-        <?php get_template_part('inc/components/layouts/hero') ?>
+        <?php get_template_part('inc/components/layouts/homepage-hero') ?>
         
         <?php get_template_part('inc/components/layouts/feature-cards') ?>
 
