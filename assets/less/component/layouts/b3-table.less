@@ -1,0 +1,98 @@
+.b3-table-container {
+    .b3-table-row {
+		
+        .b3-table-column {
+            overflow-x: auto;
+            padding: 0;
+            width: ~'calc(100% - 30px)';
+            margin: auto;
+
+            @media @large-down {
+                padding: 0;
+            }
+
+            .table-title {
+                margin-bottom: 20px;
+            }
+
+            .description {
+                margin-bottom: 35px;
+            }
+        }
+
+        table {
+            thead {
+                background-color: @greenish-yellow;
+                color: white;
+
+                th {
+                    text-transform: uppercase;
+                }
+
+                th:nth-child(1) {
+                    position: -webkit-sticky;
+                    background-color: @greenish-yellow;
+                    position: sticky;
+                    padding-left: 15px;
+                    max-width: 300px;
+                    left: 0;
+                    
+                }
+            }
+
+            tbody {
+                tr {
+                
+                    &:nth-child(even), &:nth-child(even) td {
+                        background-color: @light-grey-2;
+                    }
+
+                    &:nth-child(odd), &:nth-child(odd) td {
+                        background-color: white;
+                    }
+
+                }
+            }
+
+            tr {
+
+                position: relative;
+                overflow: auto;
+                white-space: nowrap;
+
+
+                td, th {
+                    padding: 20px 0;
+                }
+
+                td:nth-child(1) {
+                    min-width: 350px;
+                    position: sticky;
+                    position: -webkit-sticky;
+                    left: 0;
+                    padding-left: 15px;
+                    font-weight: bold;
+                    white-space: break-spaces;
+
+                    @media @medium-down {
+                        min-width: 250px;
+                        max-width: 250px;
+                    }
+
+                    @media @x-small-down {
+                        min-width: 170px;
+                    }
+                }
+
+                td:not(:nth-child(1)), th:not(:nth-child(1)) {
+                    text-align: center;
+                }
+
+                td:not(:nth-child(1)) {
+                    min-width: 200px;
+                }
+            }
+
+        }
+    }
+}
