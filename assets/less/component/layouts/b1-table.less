@@ -2,74 +2,20 @@ html .site-component-container.b1-table-container {
     padding: 0 0 15px;
 	
     .site-component-row.b1-table-row {    
-        padding: 80px 150px;
-        background-color: @light-grey-2;
-        justify-content: space-between;
-        display: flex;
-
-        @media @x-large-down {
-            padding: 60px 120px;
-        }
-
-        @media @large-down {
-            padding: 40px 80px;
-        }
-
-        @media @medium-down {
-            padding: 30px 15px;
-        }
-
-        .title {
-            margin-bottom: 20px;
-        }
-
-        .description {
-            max-width: 1000px;
-            margin-bottom: 60px;
-
-            @media @x-large-down {
-                margin-bottom: 45px;
-            }
-
-            @media @medium-down {
-                margin-bottom: 30px;
-            }
-        } 	
-
+        padding: 0 15px;
+ 		
         .b1-table-column {
-            max-width: 600px;
+            max-width: 1000px;
             padding: 20px 15px;
 			height: 100%;
     
             @media @medium-down {
                 padding: 20px 15px;
             }
-
-
     
-            &:not(:last-child){
-
-                &:after {
-                    content: '';
-                    height: 1px;
-                    position: absolute;
-                    bottom: 0;
-                    margin: auto;
-                    width: ~'calc(100% - 30px)';
-                    background-color: @light-grey;
-                }
+            &:not(:last-child) {
+                border-bottom: 1px solid @light-grey;
             }
-
-            @media @medium-up {
-                &:nth-last-child(2) {
-                    &:after {
-                        background-color: unset;
-                    }
-                }
-            }
-
-
-
     
             a, .image-row-wrapper {
                 display: flex;
@@ -82,18 +28,17 @@ html .site-component-container.b1-table-container {
             a {
                 text-decoration: none;
                 color: @black-blue-tint-2;
-                max-width: ~'calc(100% - 30px)';
-                margin: auto;
             }
     
             .title-text {
+                
                 margin: auto 0;
             }
 			
             .icon-wrapper {
                 
                 svg {
-                    font-size: 34px;
+                    font-size: 36px;
                     color: @greenish-yellow;
                 }
                 

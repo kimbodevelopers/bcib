@@ -13,7 +13,6 @@
 
                     <div id="tabs-nav-<?php echo $layout_counter ?>" class="tabs-nav row site-component-row">
 
-
                         <?php $counter = 0; ?>
 
                         <?php while(have_rows('tab_items')) : the_row(); $counter++; ?><?php endwhile; ?>
@@ -60,7 +59,7 @@
                         ?>
                             <div id="tab-<?php echo $args['layout_counter'] ?>-<?php echo get_row_index() ?>" class="tab-content tab-content-<?php echo $args['layout_counter'] ?> row">
                                 
-                                    <div class="<?php if($media_option === 'none') : ?>col-md-9 <?php else : ?> col-md-6  <?php endif; ?>">
+                                    <div class="body-text  <?php if($media_option === 'none') : ?>col-md-9 <?php else : ?> col-md-6  <?php endif; ?>">
                                         <?php echo $content; ?>
                                     </div>
 
