@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:54871:"header {
+=======
+<<<<<<< HEAD
+N;
+=======
+a:4:{s:4:"root";s:66:"C:/MAMP/htdocs/bcib/wp-content/themes/bcib/assets/less/styles.less";s:8:"compiled";s:53447:"header {
+>>>>>>> f77818965ca3529db3661d2683d8ac9a9be4cd64
   position: fixed;
   width: 100%;
   z-index: 50;
@@ -242,9 +249,12 @@ header .navbar .navbar-collapse .menu-item .sub-menu {
     position: fixed;
   }
 }
+<<<<<<< HEAD
 html * {
   font-family: "Poppins";
 }
+=======
+>>>>>>> f77818965ca3529db3661d2683d8ac9a9be4cd64
 html ::-webkit-scrollbar {
   width: 7px;
   padding: 1px;
@@ -1816,6 +1826,7 @@ html .site-component-container.a1-accordion-container .site-component-row.a1-acc
   transform: translateX(10px);
   transition: 0.5s ease-in-out transform;
 }
+<<<<<<< HEAD
 .c4-medium-card a {
   position: relative;
   height: 375px;
@@ -1885,3 +1896,7 @@ html .site-component-container.a1-accordion-container .site-component-row.a1-acc
   position: absolute;
 }
 ";s:5:"files";a:24:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1680645767;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1680632858;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1680633983;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1682029621;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1680650718;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1680564258;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1680044983;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1-text-group.less";i:1680295220;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1b-featured-cards-group.less";i:1680038765;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t2-small-title-text-only.less";i:1679955726;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t3-tabs-group.less";i:1680199762;s:88:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p1-picture.less";i:1680132953;s:93:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p2-picture-text.less";i:1680216783;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p4-video.less";i:1680281776;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\b1-link-table.less";i:1680644026;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\b3-table.less";i:1680648788;s:90:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\a1-accordion.less";i:1680296066;s:85:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\f1-form.less";i:1680295304;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;s:93:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\c4-medium-card.less";i:1680634570;}s:7:"updated";i:1682375192;}
+=======
+";s:5:"files";a:22:{s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\styles.less";i:1680293519;s:69:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\variables.less";i:1680294512;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\header.less";i:1680034132;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\global.less";i:1680294415;s:65:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\fonts.less";i:1680295141;s:66:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\footer.less";i:1680218002;s:82:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\hero.less";i:1678322793;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\feature-cards.less";i:1679954646;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\carousel.less";i:1680044983;s:92:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\background-cta.less";i:1679948220;s:96:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\text-content-media.less";i:1679953168;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1-text-group.less";i:1680295220;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t1b-featured-cards-group.less";i:1680038765;s:102:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t2-small-title-text-only.less";i:1679955726;s:91:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\t3-tabs-group.less";i:1680199762;s:88:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p1-picture.less";i:1680132953;s:93:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p2-picture-text.less";i:1680216783;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\p4-video.less";i:1680281776;s:86:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\b1-table.less";i:1680282115;s:90:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\a1-accordion.less";i:1680296066;s:85:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\layouts\f1-form.less";i:1680295304;s:94:"C:\MAMP\htdocs\bcib\wp-content\themes\bcib\assets\less\component\partials\read-more-arrow.less";i:1679954702;}s:7:"updated";i:1680296068;}
+>>>>>>> 4136203dbddda75fdc54273193e2e76919edab3f
+>>>>>>> f77818965ca3529db3661d2683d8ac9a9be4cd64

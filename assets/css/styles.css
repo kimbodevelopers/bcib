@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 header {
   position: fixed;
   width: 100%;
@@ -242,9 +244,12 @@ header .navbar .navbar-collapse .menu-item .sub-menu {
     position: fixed;
   }
 }
+<<<<<<< HEAD
 html * {
   font-family: "Poppins";
 }
+=======
+>>>>>>> f77818965ca3529db3661d2683d8ac9a9be4cd64
 html ::-webkit-scrollbar {
   width: 7px;
   padding: 1px;
@@ -1884,3 +1889,4 @@ html .site-component-container.a1-accordion-container .site-component-row.a1-acc
   object-fit: cover;
   position: absolute;
 }
+>>>>>>> 4136203dbddda75fdc54273193e2e76919edab3f

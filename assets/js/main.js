@@ -49,6 +49,7 @@
                     loop:true,
                     center: true,
                     dots: false,
+                    autoHeight : true,
                     // autoplay: true,
                     margin: 25,
                     stagePadding: 50,
