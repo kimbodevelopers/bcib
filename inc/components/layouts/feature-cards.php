@@ -8,7 +8,7 @@
 
         <?php if($subtitle) : ?>
             <div class="row site-component-row featured-cards-title-wrapper">
-                <h3 class="title-text _20 dark-grey _bold _uppercase"><?php echo $subtitle ?></h3>
+                <h3 class="title-text _20 _dark-grey _bold _uppercase"><?php echo $subtitle ?></h3>
             </div>
         <?php endif; ?>
 

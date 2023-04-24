@@ -16,9 +16,9 @@
 
                     <img class="logo" src="<?php echo $logo['url'] ?>" />
 
-                    <h3 class="title-text _20 _bold _uppercase _dark-grey-2"><?php echo $subtitle ?></h3>
+                    <h3 class="title-text _20 _bold _uppercase _dark-grey"><?php echo $subtitle ?></h3>
                     <h2 class="title-text _60  _dark-grey-2"><?php echo $title ?></h2>
-                    <div class="body-text _20 _normal _dark-grey-2"><?php echo $snippet ?></div>
+                    <div class="body-text _20 _normal _dark-grey"><?php echo $snippet ?></div>
                     
                     <?php get_template_part('inc/components/partials/read-more-arrow', null, array('link' => $button_link, 'link_text' => $button_text) ) ?>
                 </div>

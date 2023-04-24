@@ -13,7 +13,7 @@
             <div class="col-xl-6 col-lg-7 cta-column">
                 <div class="cta-wrapper">
                     <h2 class="title-text _48 _white _medium"><?php echo $title ?></h2>
-                    <div class="body-text _32 _white _regular _line-height-1-2 snippet"><?php echo $snippet ?></div>
+                    <div class="body-text _32 _white _regular _line-height-1-3 snippet"><?php echo $snippet ?></div>
                     <?php get_template_part('inc/components/partials/standard-button', null, array('button_height' => 'tall', 'button_text' => 'Apply Now', 'button_link' => '#')) ?>
                 </div>
 

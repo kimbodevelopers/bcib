@@ -23,7 +23,7 @@
                         <?php endif; ?>
 
                         <?php if($snippet) : ?>
-                            <div class="_16 body-text-2 _dark-grey"><?php echo $snippet ?></div>
+                            <div class="_16 body-text _dark-grey"><?php echo $snippet ?></div>
                         <?php endif; ?>
 
                         <?php if($link || $link_text) : ?>
