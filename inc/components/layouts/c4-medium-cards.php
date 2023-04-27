@@ -30,7 +30,7 @@
 
     <div class="container-fluid site-component-container c4-medium-cards-container">
         <div class="row site-component-row small">
-            <?php if($component_type === 'featured') : ?>
+            <?php if($component_type === 'featured' || $component_type === 'archive') : ?>
                 <div class="col-12">
                     <h2><?php $title = get_sub_field('title') ?></h2>
                 </div>
@@ -40,6 +40,8 @@
             <?php while($post_query->have_posts()) : $post_query->the_post(); ?>
                 <?php get_template_part('inc/components/partials/c4-medium-card') ?>
             <?php endwhile; ?>
+
+            <?php wp_reset_query(); ?>
         </div>
     </div>
 <?php endif; ?>

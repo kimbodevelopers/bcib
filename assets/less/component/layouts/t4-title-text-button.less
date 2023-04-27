@@ -1,0 +1,26 @@
+.t4-container {
+    background-color: @greenish-yellow;
+    padding: 200px 0;
+
+    @media @large-down {
+        padding: 150px 0;
+    }
+
+    @media @medium-down {
+        padding: 100px 0;
+    }
+
+    @media @small-down {
+        padding: 70px 0;
+    }
+
+    .t4-row {
+        .t4-column {
+            &.left {
+                h2 {
+                    max-width: 350px;
+                }
+            }
+        }
+    }
+}
