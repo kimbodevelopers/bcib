@@ -25,6 +25,7 @@
         <?php get_template_part('inc/components/layouts/p2b-text-picture') ?>
         <?php get_template_part('inc/components/layouts/p3-carousel-group') ?>
         <?php get_template_part('inc/components/layouts/p4-video') ?>
+        <?php get_template_part('inc/components/layouts/p5-single-image-carousel') ?>
 
         <?php get_template_part('inc/components/layouts/b1-link-table') ?>
         <?php get_template_part('inc/components/layouts/b3-table') ?>

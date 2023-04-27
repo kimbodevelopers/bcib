@@ -1,7 +1,7 @@
 <?php if( get_row_layout() == 'carousel_group' ): ?>
 
     <div class="container-fluid carousel-container site-component-container">
-        <div class="owl-carousel owl-theme carousel-row row">
+        <div class="owl-carousel p3-owl-carousel owl-theme carousel-row row">
 
             <?php while(have_rows('carousel_slides')) : the_row(); 
                 $image = get_sub_field('image');

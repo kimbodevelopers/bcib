@@ -1,0 +1,100 @@
+.site-component-container.p5-carousel-container {
+    background-color: @greenish-yellow;
+    padding: 110px 0;
+
+    .p5-carousel-row {
+
+        @media @medium-up {
+            margin-left: -15px;
+            
+        }
+        
+        @media @medium-down {
+            margin: 0 auto 0 -15px;
+        }
+        
+        
+        .owl-stage-outer {
+            .owl-stage {
+
+                padding: 0 15px;
+
+
+                .item {
+                    display: flex;
+
+                    @media @medium-down {
+                        flex-direction: column;
+                    }
+
+                    .carousel-image-wrapper {
+                        max-width: 75%;
+                        width: 100%;
+                        position: relative;
+
+                        @media @medium-down {
+                            max-width: 80%;
+                        }
+
+                        @media @medium-down {
+                            max-width: 100%;
+                        }
+
+                        img {
+                            width: 100%;
+                            max-height: 800px;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+
+                        .snippet-wrapper {
+                            background-color: white;
+                            max-width: 650px;
+                            right: -325px;
+                            top: 0;
+                            position: absolute;
+                            bottom: 0;
+                            height: fit-content;
+                            margin: auto;
+                            padding: 60px;
+                            
+                            &:after {
+                                content: '';
+                                height: 35px;
+                                width: 70%;
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                left: 0;
+                                margin: auto;
+                                background-color: @black-blue-tint-2;
+                                
+                                @media @large-down {
+                                    height: 30px;
+                                }
+
+                                @media @medium-down {
+                                    height: 25px;
+                                }
+                            }
+
+                            @media @x-large-down {
+                                right: -100px;
+                                padding: 40px;
+                            }
+
+                            @media @medium-down {
+                                position: relative;
+                                right: 0px;
+                                max-width: unset;
+                                padding: 30px;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

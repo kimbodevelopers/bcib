@@ -45,7 +45,7 @@
         const carouselSlides = () => {
 
             $(document).ready(function(){
-                $(".owl-carousel").owlCarousel({
+                $(".p3-owl-carousel").owlCarousel({
                     loop:true,
                     center: true,
                     dots: false,
@@ -70,6 +70,20 @@
                         },
                     
                     }
+                });
+
+
+                $(".p5-owl-carousel").owlCarousel({
+                    loop:true,
+                    center: true,
+                    dots: false,
+                    autoHeight : true,
+                    margin: 25,
+                    items: 1,
+                    stagePadding: 0,
+                    nav: true,
+                    navText: ["<i class='fa-solid fa-chevron-left'></i>","<i class='fa-solid fa-chevron-right'></i>"],
+
                 });
 
             });
