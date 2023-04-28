@@ -7,6 +7,10 @@
 			$button_background = $args['button_background'];
 		?>
 
-		<a href="<?php echo $button_link ?>" class="btn-animated standard-button _13 _bold <?php echo $button_height ?> <?php echo $button_background?>"><?php echo $button_text ?></a>
+			<a href="<?php echo $button_link ?>" class="btn-animated standard-button _13 _bold 
+				<?php if($button_height) : ?><?php echo $button_height ?><?php endif; ?>
+				<?php if($button_background) : ?><?php echo $button_background?><?php endif; ?>">
+				<?php echo $button_text ?>
+			</a>
 	</div>
 <?php endif; ?>

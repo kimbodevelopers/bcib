@@ -26,12 +26,14 @@
         <?php get_template_part('inc/components/layouts/p3-carousel-group') ?>
         <?php get_template_part('inc/components/layouts/p4-video') ?>
         <?php get_template_part('inc/components/layouts/p5-single-image-carousel') ?>
+        <?php get_template_part('inc/components/layouts/p6-image-left-text-right-group') ?>
 
         <?php get_template_part('inc/components/layouts/b1-link-table') ?>
         <?php get_template_part('inc/components/layouts/b3-table') ?>
 
         <?php get_template_part('inc/components/layouts/c4-medium-cards') ?>
     
+        <?php get_template_part('inc/components/layouts/h1-hero', null, array('layout_counter'=> $layout_counter)) ?>
         <?php get_template_part('inc/components/layouts/f1-form') ?>
         <?php endwhile; ?>
 

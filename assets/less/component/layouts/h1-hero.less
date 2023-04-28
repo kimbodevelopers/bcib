@@ -1,0 +1,48 @@
+.h1-hero-container {
+    .carousel {
+        .active.carousel-item-right, .carousel-item-next,
+        .active.carousel-item-left, .carousel-item-prev
+        {
+            -webkit-transform: unset;
+            transform: unset;
+        }
+    }
+    
+    .carousel.hero-carousel {
+        
+        margin-bottom: 30px;
+        
+        @media @margin-down {
+            margin-bottom: 15px;
+        }
+    
+        .active.carousel-item-right, .carousel-item-next,
+        .active.carousel-item-left, .carousel-item-prev
+        {
+            -webkit-transform: unset;
+            transform: unset;
+        }
+    
+        .carousel-item {
+            height: 100%;
+    
+            img {
+                object-fit: cover;
+                height: 50vw;
+                max-height: 60vh;
+                min-height: 550px;
+                width: auto;
+    
+                @media @small-down {
+                    height: 450px;
+                    min-height: 450px;
+                }
+    
+                @media @x-small-down {
+                    height: 350px;
+                    min-height: 350px;
+                }
+            }
+        }
+    }
+}

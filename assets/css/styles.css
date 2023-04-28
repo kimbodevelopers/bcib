@@ -1668,6 +1668,9 @@ html .site-component-container .site-component-row ._80 {
     padding: 30px;
   }
 }
+.p6-image-text-container .p6-image-text-row img {
+  width: 100%;
+}
 html .site-component-container.b1-table-container {
   padding: 0 0 15px;
 }
@@ -1831,6 +1834,50 @@ html .site-component-container.b1-table-container .site-component-row.b1-table-r
 }
 .b3-table-container .b3-table-row table tr td:not(:nth-child(1)) {
   min-width: 200px;
+}
+.h1-hero-container .carousel .active.carousel-item-right,
+.h1-hero-container .carousel .carousel-item-next,
+.h1-hero-container .carousel .active.carousel-item-left,
+.h1-hero-container .carousel .carousel-item-prev {
+  -webkit-transform: unset;
+  transform: unset;
+}
+.h1-hero-container .carousel.hero-carousel {
+  margin-bottom: 30px;
+}
+@media  {
+  .h1-hero-container .carousel.hero-carousel {
+    margin-bottom: 15px;
+  }
+}
+.h1-hero-container .carousel.hero-carousel .active.carousel-item-right,
+.h1-hero-container .carousel.hero-carousel .carousel-item-next,
+.h1-hero-container .carousel.hero-carousel .active.carousel-item-left,
+.h1-hero-container .carousel.hero-carousel .carousel-item-prev {
+  -webkit-transform: unset;
+  transform: unset;
+}
+.h1-hero-container .carousel.hero-carousel .carousel-item {
+  height: 100%;
+}
+.h1-hero-container .carousel.hero-carousel .carousel-item img {
+  object-fit: cover;
+  height: 50vw;
+  max-height: 60vh;
+  min-height: 550px;
+  width: auto;
+}
+@media only screen and (max-width: 767px) {
+  .h1-hero-container .carousel.hero-carousel .carousel-item img {
+    height: 450px;
+    min-height: 450px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .h1-hero-container .carousel.hero-carousel .carousel-item img {
+    height: 350px;
+    min-height: 350px;
+  }
 }
 html .site-component-container.a1-accordion-container {
   padding-top: 30px;
